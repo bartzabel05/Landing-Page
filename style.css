@@ -61,6 +61,7 @@ q{
     font-size: 36px;
     font-style: italic;
     color:#1f2937;
+    text-overflow: clip;
 }
 /*img{
     width: 20%;
@@ -77,12 +78,14 @@ q{
     border-radius: 5px 5px 0 0;
     height:250px;
     width:220px;
+    padding-left: 120px;
 }
 /*converting images into cards*/
 .info-cards{
     display: flex;
     justify-content: space-between;
     height: max-content;
+    align-items: center;
 }
 .card{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
